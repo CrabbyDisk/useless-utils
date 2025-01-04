@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    
+<script type="module" nonce="wVHW5drE+kE3Ev8FUDTvfA==">
+import init, * as bindings from '/website-a3d2fc5b8fca0d74.js';
+const wasm = await init({ module_or_path: '/website-a3d2fc5b8fca0d74_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Yew App</title>
+  <link rel="modulepreload" href="/website-a3d2fc5b8fca0d74.js" crossorigin=anonymous integrity="sha384-ib+jD6Jq3fvzaqjMmGrHT7kAUPuxh4SOCMkwgegGWp5uGbyz5ohH8uolO9TU4lCe"><link rel="preload" href="/website-a3d2fc5b8fca0d74_bg.wasm" crossorigin=anonymous integrity="sha384-epGKhGr85Dz8ThqW1NH/L59Xe/rw75GUhhgSqtlC/GnmuiRPhXKTBFsAERxH5/G1" as="fetch" type="application/wasm"></head>
+</html>
