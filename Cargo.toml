@@ -4,6 +4,7 @@ license = "MIT"
 description = "An extremely useless crate I made for a fun project"
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/CrabbyDisk/useless-utils"
 
 [dependencies]
 rand = {version="0.8.5", optional = true}
